@@ -6,8 +6,8 @@ module.exports = defineConfig({
     env: {
       hideCredentials: true,
       requestMode: true,
-      // snapshotOnly: true, (Será passado direto no teste conforme o curso, mas essa funcionalidade pode ser ativa por aqui também)
     },
+    experimentalRunAllSpecs: true,
   },
   fixturesFolder: false,
   video: false,
